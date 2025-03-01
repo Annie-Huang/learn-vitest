@@ -7,3 +7,4 @@ https://vite.dev/guide/
 --------------------------------------------------------------
 
 PS C:\react> npm create vite@latest learn-vitest -- --template react-ts
+PS C:\react\learn-vitest> npm install
