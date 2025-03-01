@@ -1,0 +1,6 @@
+React Testing for Beginners with Vitest (https://www.youtube.com/watch?v=SMsZDg-t_mA)
+
+https://github.com/candraKriswinarto/learn-vitest-yt
+https://github.com/Annie-Huang/learn-vitest
+
+--------------------------------------------------------------
