@@ -4,9 +4,12 @@ https://github.com/candraKriswinarto/learn-vitest-yt
 https://github.com/Annie-Huang/learn-vitest
 
 https://vite.dev/guide/
+https://vitest.dev/guide/
 --------------------------------------------------------------
 
 PS C:\react> npm create vite@latest learn-vitest -- --template react-ts
 PS C:\react\learn-vitest> npm install
+PS C:\react\learn-vitest> npm install -D vitest
+
 
 PS C:\react\learn-vitest> npm run dev
