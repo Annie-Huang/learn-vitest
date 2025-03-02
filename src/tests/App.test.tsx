@@ -10,6 +10,8 @@ describe('App Component', () => {
     // https://stackoverflow.com/questions/56547215/react-testing-library-why-is-tobeinthedocument-not-a-function
     // https://www.jetbrains.com/help/idea/typescript-compiler-tool-window.html#ws_ts_typescript_widget
     // To resolve "Unresolved function or method toBeInTheDocument()" error
+
+    // OMG, this problem only happens in intellij, when i opened in vscode, it shows definition!!!
     expect(heading).toBeInTheDocument();
     expect(heading).toHaveTextContent(/React Testing Demo$/);
     expect(heading.tagName).toBe('H1');
