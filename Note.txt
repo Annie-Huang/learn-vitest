@@ -11,5 +11,6 @@ PS C:\react> npm create vite@latest learn-vitest -- --template react-ts
 PS C:\react\learn-vitest> npm install
 PS C:\react\learn-vitest> npm install -D vitest
 PS C:\react\learn-vitest> npm install -D @testing-library/react happy-dom
+PS C:\react\learn-vitest> npm install -D @testing-library/jest-dom
 
 PS C:\react\learn-vitest> npm run dev
