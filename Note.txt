@@ -12,5 +12,11 @@ PS C:\react\learn-vitest> npm install
 PS C:\react\learn-vitest> npm install -D vitest
 PS C:\react\learn-vitest> npm install -D @testing-library/react happy-dom
 PS C:\react\learn-vitest> npm install -D @testing-library/jest-dom
+PS C:\react\learn-vitest> npm install jsdom -D
 
 PS C:\react\learn-vitest> npm run dev
+
+
+in tsconfig.json
+  "types": ["vitest/globals"],
+  "include": ["./setup.ts"]
