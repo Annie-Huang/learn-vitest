@@ -9,8 +9,9 @@ export default defineConfig({
     // https://www.npmjs.com/package/happy-dom
     environment: 'happy-dom',
     setupFiles: ['./src/tests/setup.ts'],
-    // include: ['src/**/*.{test,spec}.{ts,tsx}'],
-    include: ['**/*.{test,spec}.{ts,tsx}'],
-    globals: true,
+    include: ['src/**/*.{test,spec}.{ts,tsx}'],
+    // above will not run sum.test.ts
+    // include: ['**/*.{test,spec}.{ts,tsx}'],
+    // globals: true,
   },
 });
